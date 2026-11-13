@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 670" fill="none">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1440" y2="670" gradientUnits="userSpaceOnUse"><stop stop-color="#0B1B32"/><stop offset=".53" stop-color="#0B2F61"/><stop offset="1" stop-color="#07172B"/></linearGradient>
+ <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#a9c7ef"/></linearGradient>
+ <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EFF7FF"/><stop offset="1" stop-color="#C8DEFA"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#148BFF" stop-opacity=".52"/><stop offset="1" stop-color="#087BFA" stop-opacity="0"/></radialGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur in="SourceAlpha" stdDeviation="12"/><feOffset dy="12"/><feComponentTransfer><feFuncA type="linear" slope=".42"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="blueGlow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="#2788FB" fill-opacity=".45"/></pattern>
+</defs>
+<rect width="1440" height="670" fill="url(#bg)"/>
+<ellipse cx="712" cy="422" rx="478" ry="282" fill="url(#glow)"/>
+<rect x="842" y="18" width="540" height="220" fill="url(#dots)" opacity=".75"/>
+<path d="M0 576C220 506 390 631 602 558s421-40 838 45v67H0z" fill="#07172b" fill-opacity=".66"/>
+<!-- floating tax papers -->
+<g filter="url(#shadow)" fill="url(#paper)" stroke="#C5D9F5" stroke-width="2">
+ <path d="M75 42 202 78l32 115-127-37z"/><path d="m303 101 88 22 19 92-88-25z"/><path d="m112 218 132 36 24 103-131-38z"/><path d="m310 257 105 31 20 76-105-31z"/><path d="m166 393 96 25 17 70-97-27z"/>
+</g>
+<g stroke="#7796c2" stroke-width="3" opacity=".7"><path d="m102 77 83 23m-78-12 91 25m-83-14 76 21m-63 15 84 23M322 131l55 15m-49-5 59 17m-53-8 48 13m-340 79 82 23m-74-11 93 27m-84-14 76 22m-63 17 88 25m-67-13 65 19m-42 24 69 19m-50-9 65 18m-45-6 49 14"/></g>
+<!-- paper motion arcs -->
+<g stroke="#2389FD" stroke-width="3" opacity=".65"><path d="M318 380C423 438 470 493 607 425"/><path d="M365 266c120 44 130 98 244 130"/><path d="M390 160c129 77 144 152 234 208"/><path d="M263 452c117 39 220 40 340-23"/></g>
+<!-- paper stack -->
+<g filter="url(#shadow)"><path d="m18 461 337-63 208 48-331 77z" fill="#DCE8F7" stroke="#9fb7d8" stroke-width="3"/><path d="m18 484 337-63 208 48-331 77z" fill="#EEF5FF" stroke="#9fb7d8" stroke-width="3"/><path d="m18 507 337-63 208 48-331 77z" fill="#D5E3F5" stroke="#9fb7d8" stroke-width="3"/><path d="m18 530 337-63 208 48-331 77z" fill="#F3F7FD" stroke="#9fb7d8" stroke-width="3"/><path d="m18 553 337-63 208 48-331 77z" fill="#CFDDF0" stroke="#9fb7d8" stroke-width="3"/><path d="m18 576 337-63 208 48-331 77z" fill="#F3F7FD" stroke="#9fb7d8" stroke-width="3"/><path d="m190 557 57-11 30 10-56 13z" fill="#FFB74D"/><path d="m137 584 53-10 28 10-54 12z" fill="#58B8FF"/></g>
+<!-- extracted floating tax form -->
+<g filter="url(#shadow)" transform="rotate(12 528 233)"><path d="M444 111h173l29 32v233H444z" fill="url(#paper)" stroke="#70A8F6" stroke-width="4"/><path d="M617 111v34h29" fill="#d1e4ff" stroke="#70A8F6" stroke-width="3"/><text x="467" y="171" fill="#2865AE" font-family="Arial,sans-serif" font-size="16" font-weight="700">TAX DOCUMENT</text><text x="467" y="202" fill="#56708f" font-family="Arial,sans-serif" font-size="11">TAXPAYER INFORMATION</text><g stroke="#9BB1CF" stroke-width="4"><path d="M468 218h129M468 235h110M468 262h128M468 279h96M468 306h128M468 323h110M468 350h128"/></g><text x="563" y="375" fill="#3984E9" font-family="Arial,sans-serif" font-size="27" font-weight="700">$</text></g>
+<!-- AI hub network -->
+<g stroke="#28A0FF" stroke-width="4" opacity=".95" filter="url(#blueGlow)"><path d="M718 347C626 302 629 231 626 178"/><path d="M741 337c68-44 102-80 135-109"/><path d="M757 363c99-4 155-28 211-45"/><path d="M755 393c89 45 116 76 149 105"/><path d="M718 409c-10 66 17 93 48 128"/><path d="M691 387c-93 43-140 76-175 114"/><path d="M681 358c-73 0-125 4-177 28"/></g>
+<g fill="#67C8FF" filter="url(#blueGlow)"><circle cx="626" cy="178" r="6"/><circle cx="876" cy="228" r="6"/><circle cx="968" cy="318" r="6"/><circle cx="904" cy="498" r="6"/><circle cx="766" cy="536" r="6"/><circle cx="516" cy="502" r="6"/><circle cx="504" cy="386" r="6"/></g>
+<!-- central AI brain -->
+<g filter="url(#blueGlow)"><circle cx="711" cy="372" r="92" fill="#08254C" stroke="#54BBFF" stroke-width="5"/><circle cx="711" cy="372" r="78" stroke="#288EFF" stroke-width="2" stroke-dasharray="5 8"/><circle cx="711" cy="372" r="66" stroke="#74CCFF" stroke-width="2"/></g>
+<g stroke="#C5F0FF" stroke-width="5" stroke-linecap="round" fill="none"><path d="M711 322v100M680 338l62 68m0-68-62 68M670 371h82m-41-46c-14-12-28-4-27 9-15 2-20 17-9 27-10 12-4 27 10 28 2 14 17 18 27 8 11 10 26 6 27-9 14-2 18-17 8-27 10-12 4-27-10-28-2-14-17-18-26-8z"/></g>
+<g fill="#72D9FF"><circle cx="711" cy="346" r="6"/><circle cx="693" cy="360" r="6"/><circle cx="729" cy="360" r="6"/><circle cx="684" cy="380" r="6"/><circle cx="711" cy="380" r="6"/><circle cx="738" cy="380" r="6"/><circle cx="697" cy="400" r="6"/><circle cx="725" cy="400" r="6"/></g>
+<!-- document automation node -->
+<g filter="url(#blueGlow)"><circle cx="626" cy="133" r="52" fill="#0a2445" stroke="#58B9FF" stroke-width="4"/><path d="M608 102h26l18 18v45h-44z" stroke="#C6EDFF" stroke-width="4"/><path d="M634 102v20h19m-39 12h24m-24 10 8 8 18-18m-26 27h27" stroke="#C6EDFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+<!-- workflow node -->
+<g filter="url(#blueGlow)"><circle cx="913" cy="203" r="57" fill="#0a2445" stroke="#58B9FF" stroke-width="4"/><g stroke="#C6EDFF" stroke-width="4" fill="none"><rect x="902" y="169" width="22" height="17" rx="3"/><rect x="882" y="207" width="20" height="18" rx="3"/><rect x="922" y="207" width="20" height="18" rx="3"/><path d="M913 186v13m-21 8v-8h42v8m-21-8v25"/></g></g>
+<!-- chart node -->
+<g filter="url(#blueGlow)"><circle cx="949" cy="497" r="55" fill="#0a2445" stroke="#58B9FF" stroke-width="4"/><path d="M922 521h55M932 513v-18h12v18m6 0v-30h12v30m6 0v-43h12v43" fill="#4AB5FF" stroke="#C6EDFF" stroke-width="3"/></g>
+<!-- security node -->
+<g filter="url(#blueGlow)"><circle cx="782" cy="573" r="49" fill="#0a2445" stroke="#58B9FF" stroke-width="4"/><path d="m782 539 26 10v22c0 18-11 30-26 39-15-9-26-21-26-39v-22z" stroke="#C6EDFF" stroke-width="4"/><path d="m769 574 10 10 19-21" stroke="#C6EDFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>
+<!-- laptop body -->
+<g filter="url(#shadow)"><path d="m1011 281 354 31 13 221-377-40z" fill="#101B2B" stroke="#657D9D" stroke-width="5"/><path d="m1029 298 320 28 10 174-334-36z" fill="url(#screen)"/><path d="m1002 493 376 42 65 59c5 5 0 14-8 13l-413-59-48-40c-6-6-1-16 8-15z" fill="#243650" stroke="#7588A5" stroke-width="4"/><path d="m1045 505 264 32 27 30-274-38z" fill="#344966" stroke="#607995" stroke-width="2"/></g>
+<!-- dashboard -->
+<g><rect x="1044" y="315" width="282" height="29" rx="4" fill="#EAF3FF"/><circle cx="1060" cy="330" r="5" fill="#3789F5"/><path d="M1077 329h72" stroke="#87A4C8" stroke-width="4" stroke-linecap="round"/><path d="M1051 358h82v111h-82z" fill="#F7FAFF" stroke="#D5E1F1" stroke-width="2"/><text x="1061" y="375" fill="#6B82A1" font-family="Arial,sans-serif" font-size="9">DOCUMENTS</text><circle cx="1090" cy="420" r="27" stroke="#D8E5F6" stroke-width="13"/><path d="M1090 393a27 27 0 0 1 25 37" stroke="#2A8CFA" stroke-width="13"/><path d="M1107 400a27 27 0 0 1 8 30" stroke="#49B9F2" stroke-width="13"/><g stroke="#CFDBE9" stroke-width="3"><path d="M1062 456h42m-42 7h31"/></g><path d="M1141 358h174v111h-174z" fill="#F7FAFF" stroke="#D5E1F1" stroke-width="2"/><text x="1152" y="375" fill="#6B82A1" font-family="Arial,sans-serif" font-size="9">MONTHLY OVERVIEW</text><path d="M1160 450v-28h17v28m13 0v-48h17v48m13 0v-39h17v39m13 0v-59h17v59m13 0v-72h17v72" fill="#4A9AF2" opacity=".88"/><path d="M1157 456h151" stroke="#C6D5E8" stroke-width="2"/></g>
+<!-- plant -->
+<g><path d="M1373 650c-12-48-10-82 4-113m-1 66c-25-32-40-49-53-45 4 26 22 45 53 50m5-23c6-40 20-56 36-58 3 28-9 50-36 67m-1-13c24-23 43-27 56-17-12 22-30 31-56 32m-6-34c-15-29-13-50 0-63 20 19 22 40 8 65" fill="#267C56" stroke="#55BA82" stroke-width="3"/><path d="m1348 644 83 8-7 18h-68z" fill="#43566E"/></g>
+</svg>
